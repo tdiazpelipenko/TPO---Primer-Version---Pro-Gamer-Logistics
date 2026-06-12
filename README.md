@@ -1,1 +1,12 @@
-# TPO---Primer-Version---Pro-Gamer-Logistics
+# Sistema de Gestión de Inventario "Pro-Gamer Logistics"
+
+## Desarrollo de Estructuras de Datos para el Abastecimiento de Videojuegos y Deportes Electrónicos
+
+### Alcance
+El presente sistema está diseñado para operar en el entorno de la memoria RAM mediante el uso de listas paralelas sincronizadas, permitiendo la administración interna y en tiempo real de componentes clave de *hardware*, periféricos de alta competencia (monitores, sillas gamer, teclados y ratones) y accesorios informáticos esenciales para la ejecución y optimización de videojuegos modernos. El software cubre las operaciones fundamentales de un sistema ABM (Alta, Baja y Modificación) junto con la generación de reportes ordenados por criterios múltiples, sin recurrir a bases de datos externas ni a funciones nativas de ordenamiento automatizado, lo que asegura el control total de la lógica algorítmica por parte del equipo de desarrollo.
+
+### Objetivo
+El objetivo principal de este proyecto es proveer un controlador logístico robusto y eficiente que garantice la consistencia, validación estricta y ordenamiento de los productos tecnológicos indispensables para la industria de los videojuegos y los *esports*. A través de mecanismos manuales de validación por rangos ASCII y un algoritmo de ordenamiento por intercambio (burbuja) adaptado a las reglas del negocio, se busca prevenir inconsistencias operativas —como la eliminación de stock existente o la inserción de datos corruptos—, optimizando así la toma de decisiones sobre el inventario disponible para los jugadores y usuarios exigentes.
+
+### Resumen del Sistema
+El programa se consolida como una solución modular escrita en Python que coordina de forma simétrica seis estructuras vectoriales independientes correspondientes a los identificadores, descripciones, categorías, precios, existencias y fabricantes de la tienda de tecnología gamer. El flujo de ejecución es guiado por un menú interactivo en consola que permite realizar altas (tanto manuales con validaciones lógicas como automatizadas mediante simulaciones aleatorias), bajas supeditadas a la ausencia absoluta de existencias, y modificaciones directas de stock. Como cierre del ciclo operativo, el sistema cuenta con un módulo de clonación y ordenamiento en espejo que genera reportes comerciales jerarquizados de mayor a menor cantidad de stock, resolviendo los empates mediante un criterio alfabético secundario, preservando intacta la integridad de los registros originales en la memoria.
